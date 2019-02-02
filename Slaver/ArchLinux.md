@@ -120,7 +120,7 @@ echo "arch-dww" > /mnt/hostname
 
 设置系统时区和时钟信息
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
-
+阿飞
 
 
 
