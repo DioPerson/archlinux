@@ -121,6 +121,10 @@ echo "arch-dww" > /etc/hostname
 设置系统时区和时钟信息
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 
+生成一个 efibootmgr 文件来规定磁盘分区、块设备，或者远程文件系统是如何挂载进文件系统中：
+pacman -S grub efibootmgr
+
+grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=ArchLinux
 
 
 
