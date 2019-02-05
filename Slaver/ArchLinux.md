@@ -7,7 +7,7 @@
 
 选择 download ，它有几种方式下载。
 我选择的是磁力下载，单击磁铁图标，迅雷就会可以下载了
-[VMware Workstation Pro15.0.2下载](https://download.virtualbox.org/virtualbox/6.0.0/VirtualBox-6.0.0-127566-Win.exe
+[VMware Workstation Pro15.0.2下载](https://www.vmware.com/go/getworkstation-win)
 )也可以通过迅雷一并下载。
 虚拟机安装就不用我说了吧，很简单 ，注册密钥网上很多。
 **激活密钥：**
