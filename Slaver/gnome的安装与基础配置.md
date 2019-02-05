@@ -20,3 +20,10 @@ vim /etc/sudoers
 大概82行
 将 %wheel ALL=(ALL) NOPASSDW :ALL 取消注释
 然后退出
+安装中文字体
+pacman -S wqy-zenhei
+安装浏览器
+pacman -S firefox
+
+设置用户密码：
+passwd slaver
