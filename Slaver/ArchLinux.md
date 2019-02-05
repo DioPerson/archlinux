@@ -94,7 +94,7 @@ quit退出
 
 **6.挂载文件系统.**
 
-`mount .dev.sda1 /mnt`
+`mount /dev/sda1 /mnt`
 
 `mkdir /mnt/home`
 
