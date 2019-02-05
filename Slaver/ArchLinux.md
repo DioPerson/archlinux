@@ -120,6 +120,7 @@ quit退出
 ` pacstrap -i  /mnt base base-devel `
 
 一路按<kbd>Enter</kbd>键 代表默认安装
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181225225722125.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxMjk4Njc1,size_16,color_FFFFFF,t_70)
 **9.生成一个 fstab 文件来规定磁盘分区、块设备，或者远程文件系统是如何挂载进文件系统中：**
 ` genfstab -U /mnt >>/mnt/etc/fstab`
