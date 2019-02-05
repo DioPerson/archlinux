@@ -98,7 +98,7 @@ quit退出
 
 `mkdir /mnt/home`
 
-`mkdir /dev-p /mnt/boot/efi`
+`mkdir -p /mnt/boot/efi`
 
 `mount /dev/sda2 /mnt/home`
 
