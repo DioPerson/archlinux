@@ -85,15 +85,22 @@ quit退出
 **5.格式化分区.***
 
 `mkfs.ext4 /dev/sda1`
+
 `mkfs.ext4 /dev/sda2`
+
 `mkfs.vfat /dev/sda3`
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181225223945909.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxMjk4Njc1,size_16,color_FFFFFF,t_70)
 **6.挂载文件系统.**
 
 `mount .dev.sda1 /mnt`
+
 `mkdir /mnt/home`
+
 `mkdir /dev-p /mnt/boot/efi`
+
 `mount /dev/sda2 /mnt/home`
+
 `mount /dev/sda3 /mnt/boot/efi`
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181225223956844.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxMjk4Njc1,size_16,color_FFFFFF,t_70)
