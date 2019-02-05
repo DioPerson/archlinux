@@ -136,10 +136,13 @@ quit退出
 
 设置编码
 ` vim /etc/locale.gen`
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181225230901802.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxMjk4Njc1,size_16,color_FFFFFF,t_70)
 ![> 引用文本](https://img-blog.csdnimg.cn/20181225230936427.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxMjk4Njc1,size_16,color_FFFFFF,t_70)
+
 中文和英文的utf-8
 保存退出 :wq  
+
 locale-gen
 echo LANG=en_US.UTF-8 > /etc/locale.conf
 
