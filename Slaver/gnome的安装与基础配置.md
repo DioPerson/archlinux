@@ -31,7 +31,8 @@ passwd slaver
 
 重启：
 reboot
-然后输入密码：，在点击设置选择Xorg.然后登录。
+
+开机后输入密码：，在点击设置选择Xorg.然后登录。
 
 gnome桌面的基础配置
 
@@ -47,6 +48,8 @@ copy 链接
 
 安装git
 sudo pacman -S git
+
+运行刚刚复制的链接
 
 编辑 zshrc
 vim .zshrc
@@ -71,7 +74,7 @@ multilib里的内容取消注释。
 更新一下。
 sudo pacman -Syy
 安装我们的密钥包
-sudo pacman archlinuxcn-keyring
+sudo pacman -S archlinuxcn-keyring
 然后就可以安装网易云音乐，谷歌浏览器了
 sudo pacman -S netease-cloud-music
 sudo pacman -S google-chrome
@@ -107,3 +110,5 @@ sudo pacman -S papirus-icon-theme
 搜索 yay vimix 
 选择 vimix-gtk-theme -git 。
 我这里是6.
+打开Tweaks
+Appearance——>>Appearance>>选择主题
