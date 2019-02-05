@@ -63,7 +63,7 @@ VA510-23F57-M85PY-7FN7C-MCRG0
 `timedatectl set-ntp true`
 
 **3.分区磁盘**
-
+`fdisk`
 **3.磁盘查看**
 
 `fdisk -l`
@@ -73,7 +73,7 @@ VA510-23F57-M85PY-7FN7C-MCRG0
 
 **4.磁盘分区**
 
-`cfdisk /edv/sda`
+`cfdisk /dev/sda`
 选择gdp
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181225221725454.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxMjk4Njc1,size_16,color_FFFFFF,t_70)
 ==第三个分区需要换成EFI system类型==
