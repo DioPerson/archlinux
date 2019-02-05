@@ -109,6 +109,6 @@ sudo pacman -S papirus-icon-theme
 安装gtk的主题
 搜索 yay vimix 
 选择 vimix-gtk-theme -git 。
-我这里是6.
+我这里是2
 打开Tweaks
 Appearance——>>Appearance>>选择主题
