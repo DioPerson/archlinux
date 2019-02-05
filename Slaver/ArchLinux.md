@@ -128,7 +128,8 @@ quit退出
 
 **10.进入 chroot 环境，这样可以为当前进程以及子进程切换当前根目录：**
 
-arch-chroot/mnt
+`arch-chroot/mnt`
+
 有没有观察到root变色了？说明成功进入chroot环境
 我安装一个vim 方便我下一步操作
 
