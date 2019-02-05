@@ -1,3 +1,4 @@
+gnome桌面的安装
 安装xorg服务
 pacman -S xorg
 安装gnome桌面
@@ -27,3 +28,26 @@ pacman -S firefox
 
 设置用户密码：
 passwd slaver
+
+重启：
+reboot
+然后输入密码：，在点击设置选择Xorg.然后登录。
+
+gnome桌面的基础配置
+
+打开Terminal应用
+安装 
+sudo pacman -S gnome-tweaks
+
+打开Tweaks 进行一些简单的配置
+windowsTitlebars 的minmize设置
+
+打开浏览器 搜索ohmyz.sh.
+copy 链接
+
+安装git
+sudo pacman -S git
+
+编辑 zshrc
+vim .zshrc
+设置为ZSH_THEME="ys"
