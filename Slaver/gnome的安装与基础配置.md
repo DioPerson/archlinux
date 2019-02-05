@@ -95,3 +95,15 @@ sudo pacman -S python-nautilus
 选择Default——>>Color——>>Transparency  设置60%
 选择Default——>>Color——>>Unfocused dim 设置60%
 
+安装papirus
+sudo pacman -S papirus-icon-theme
+设置图标
+打开Tweaks
+需要安装主题
+打开Extensions——>>User themes.
+更改图标：Appearance——>>icons——>>选择
+设置shell主题Appearance——>>Shell——>>选择
+安装gtk的主题
+搜索 yay vimix 
+选择 vimix-gtk-theme -git 。
+我这里是6.
