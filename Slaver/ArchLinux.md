@@ -132,6 +132,9 @@ grub-install --target=i386-pc /dev/sda
 生成配置文件
 grub-mkconfig -o /boot/grub/grub.cfg
 
+设置自动联网:
+systemctl enable dhcpdd
+
 
 
 
