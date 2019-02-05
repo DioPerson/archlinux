@@ -51,3 +51,19 @@ sudo pacman -S git
 编辑 zshrc
 vim .zshrc
 设置为ZSH_THEME="ys"
+把 plugins=(git) 设置为 plugins=(git  sudo) 
+退出
+生效配置文件
+source .zshrc
+打开百度搜索 ：ustc archlinuxcn.
+选择第一个网站
+复制使用方法的两行的内容
+
+sudo vim /etc/pacman.conf
+把Color取消注释
+把TotalDownload 取消注释
+把VerbosePkgLists 取消注释
+打开32的仓库
+multilib里的内容取消注释。
+加入我们archlinux的源
+刚刚我们复制的内容，在最后一行粘贴。按ctrl+Shift+ins
