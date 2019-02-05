@@ -112,3 +112,13 @@ sudo pacman -S papirus-icon-theme
 我这里是2
 打开Tweaks
 Appearance——>>Appearance>>选择主题
+安装docky
+sudo pacman -S docky
+
+打开Extensions——>>Applications menu
+Top Bar ——>> Date
+Top Bar ——>> week Numbers
+
+启动docky
+大小设置一下 
+Zoom 120%
