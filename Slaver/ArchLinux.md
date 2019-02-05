@@ -64,12 +64,12 @@ VA510-23F57-M85PY-7FN7C-MCRG0
 
 **3.分区磁盘**
 
-`fdisk -l`
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20181225220849842.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxMjk4Njc1,size_16,color_FFFFFF,t_70)
-
 **3.磁盘查看**
 
 `fdisk -l`
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181225220849842.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxMjk4Njc1,size_16,color_FFFFFF,t_70)
+
+
 
 **4.磁盘分区**
 
