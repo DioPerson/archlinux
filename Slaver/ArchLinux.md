@@ -10,6 +10,19 @@
 [VMware Workstation Pro15.0.2下载](https://download.virtualbox.org/virtualbox/6.0.0/VirtualBox-6.0.0-127566-Win.exe
 )也可以通过迅雷一并下载。
 虚拟机安装就不用我说了吧，很简单 ，注册密钥网上很多。
+**激活密钥：**
+
+ZC10K-8EF57-084QZ-VXYXE-ZF2XF
+
+UF71K-2TW5J-M88QZ-8WMNT-WKUY4
+
+AZ7MK-44Y1J-H819Z-WMYNC-N7ATF
+
+CU702-DRD1M-H89GP-JFW5E-YL8X6
+
+YY5EA-00XDJ-480RP-35QQV-XY8F6
+
+VA510-23F57-M85PY-7FN7C-MCRG0
 
 **创建与启动前的设置**
 新建——>>输入名字archlinux  选择下载好的ios文件——>>下一步系统类型选择Linux,版本选择其他LInux4.x 64位——>>下一步选择虚拟机的名称和位置——>>下一步选择硬盘大小我这里选择的32.1GB，100M——>>是EFI需要的大小——>>自定义硬盘设置----->>我把处理器设为4，你们随根据自己的电脑设置，内存大小的设置，选项的高级，设置引导——>>完成。
