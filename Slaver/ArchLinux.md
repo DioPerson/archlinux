@@ -133,7 +133,30 @@ grub-install --target=i386-pc /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg
 
 设置自动联网:
-systemctl enable dhcpdd
+systemctl enable dhcpcd
+
+笔记本需要安装：
+pacman -Ss wpa_supplicant
+pacman -Ss wpa_supplicant dialog
+
+退出：
+exit
+
+卸载硬盘分区：
+umount -R /mnt
+
+重启：
+reboot
+
+root用户密码：
+passwd root
+然后输入两次密码。
+
+uname -a
+
+cat /etc/os_release
+
+ping baidu.com
 
 
 
