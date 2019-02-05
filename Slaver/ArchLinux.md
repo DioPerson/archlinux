@@ -112,7 +112,6 @@ quit退出
 将第一个地址换清华大学的源：Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch
 这样方便下载。
 
-
 按<kbd>esc</kbd>键输入“:wq”<kbd>Enter</kbd>
 更新软件包缓存：` pacman -Syy`
 
