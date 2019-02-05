@@ -67,3 +67,31 @@ sudo vim /etc/pacman.conf
 multilib里的内容取消注释。
 加入我们archlinux的源
 刚刚我们复制的内容，在最后一行粘贴。按ctrl+Shift+ins
+退出。
+更新一下。
+sudo pacman -Syy
+安装我们的密钥包
+sudo pacman archlinuxcn-keyring
+然后就可以安装网易云音乐，谷歌浏览器了
+sudo pacman -S netease-cloud-music
+sudo pacman -S google-chrome
+
+安装第三方支持
+sudo pacman -S yay yaourt
+
+搜索 yay flat-remix
+选择 gnome-git ---2
+选择2.
+
+在安装tilix
+sudo pacman -S tilix
+
+安装可选依赖
+sudo pacman -S python-nautilus
+
+配置Tilix
+打开后选择左上角的下面下拉按钮——.>>选择Profiles——>>Edit Profile
+选择Appearance——>>Theme variant ——>>Dark
+选择Default——>>Color——>>Transparency  设置60%
+选择Default——>>Color——>>Unfocused dim 设置60%
+
