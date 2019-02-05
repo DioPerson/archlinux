@@ -116,11 +116,11 @@ echo LANG=en_US.UTF-8 > /etc/locale.conf
 
 设置系统主机名：
 
-echo "arch-dww" > /mnt/hostname
+echo "arch-dww" > /etc/hostname
 
 设置系统时区和时钟信息
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
-阿飞
+
 
 
 
