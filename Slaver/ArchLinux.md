@@ -112,11 +112,13 @@ quit退出
 将第一个地址换清华大学的源：Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch
 这样方便下载。
 
+
 按<kbd>esc</kbd>键输入“:wq”<kbd>Enter</kbd>
 更新软件包缓存：` pacman -Syy`
 
 **8.下载安装系统**
 ` pacstrap -i  /mnt base base-devel `
+
 一路按<kbd>Enter</kbd>键 代表默认安装
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20181225225722125.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxMjk4Njc1,size_16,color_FFFFFF,t_70)
 **9.生成一个 fstab 文件来规定磁盘分区、块设备，或者远程文件系统是如何挂载进文件系统中：**
