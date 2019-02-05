@@ -108,10 +108,14 @@ quit退出
 **7.更换下载系统的源**
 
 `vim /etc/pacman.d/mirrorlist`
+
 将第一个地址换清华大学的源：Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch
 这样方便下载。
+
+
 按<kbd>esc</kbd>键输入“:wq”<kbd>Enter</kbd>
 更新软件包缓存：` pacman -Syy`
+
 **8.下载安装系统**
 ` pacstrap -i  /mnt base base-devel `
 一路按<kbd>Enter</kbd>键 代表默认安装
