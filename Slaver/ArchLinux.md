@@ -189,7 +189,7 @@ passwd root
 
 uname -a
 
-cat /etc/os_release
+cat /etc/os-release
 
 ping baidu.com
 
